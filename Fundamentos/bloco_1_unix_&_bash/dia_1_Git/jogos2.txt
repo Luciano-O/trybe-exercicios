@@ -1,3 +1,5 @@
 GoW
 TR
 CP
+RE
+Pokemon
