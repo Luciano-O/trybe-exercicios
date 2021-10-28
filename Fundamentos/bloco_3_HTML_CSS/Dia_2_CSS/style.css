@@ -1,0 +1,16 @@
+body {font-size: 16px;}
+            h1 {width: 65px; 
+                color: orange;
+                font-family: sans-serif;}
+            ul {background-color: blue;
+                font-style: italic;
+                line-height: 30px;
+                text-align: center;
+                text-decoration: underline;
+                color: white;}
+            p {font-weight: 600;
+                font-size: 3em;}
+            .cor-fundo {background-color: red;} 
+            #li1 {background-color: green;}   
+            #li2 {background-color: yellow;}
+            #l13 {background-color: brown;}
