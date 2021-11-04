@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.infos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+    width: 170px;
+    float: right;
+    background-color: lightblue;
+}
+
+.infos ul li {
+    text-align: center;
+}
+
+.infosg {
+    height: 150px;;
+    margin-left: 10px;
+}
+
+.infosg p {
+    text-align: justify;
+
+}
+
+.imgs {
+    float: left;
+    width: 200px;
+    margin: 0 10px
+}
+
+.curi {
+    display:;
+    height: 250px
+}
+
+.video {
+    float: right;
+}
+
+.video a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: lightgreen;
+    padding: 10px ;
+    margin: 0;
+    border: 0;
+}
+
+nav {
+    justify-content: center;
+}
