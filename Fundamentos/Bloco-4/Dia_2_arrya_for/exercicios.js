@@ -65,12 +65,13 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 //  console.log(cont)
 
-let numbers2 = [];
-for(index = 1; index != 26; index+=1) {
-    numbers2.push(index)
-}
-// console.log(numbers2)
+// Exercicio 8 e 9
+// let numbers2 = [];
+// for(index = 1; index != 26; index+=1) {
+//     numbers2.push(index)
+// }
+// // console.log(numbers2)
 
-for(let num of numbers2){
-    console.log(num / 2)
-}
+// for(let num of numbers2){
+//     console.log(num / 2)
+// }
