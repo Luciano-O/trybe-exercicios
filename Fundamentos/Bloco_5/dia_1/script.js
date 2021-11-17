@@ -9,3 +9,4 @@
 */
 
 document.querySelector('p').innerText = 'Me vejo casado e trabalhando na area da tecnologia'
+document.querySelector('.main-content').style.backgroundColor = 'rgb(76,164,109)';
