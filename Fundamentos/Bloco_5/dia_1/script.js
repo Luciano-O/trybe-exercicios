@@ -11,3 +11,4 @@
 document.querySelector('p').innerText = 'Me vejo casado e trabalhando na area da tecnologia'
 document.querySelector('.main-content').style.backgroundColor = 'rgb(76,164,109)';
 document.querySelector('.main-content .center-content').style.backgroundColor = 'white';
+document.querySelector('h1').innerText = 'Exercício 5.1 - JavaScript'
