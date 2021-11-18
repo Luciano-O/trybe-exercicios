@@ -26,3 +26,15 @@ let img = document.createElement('img')
 img.src = "https://picsum.photos/200"
 img.className = 'small-image'
 document.querySelector('.left-content').appendChild(img);
+
+let ul = document.createElement('ul');
+let ext = ['Um', 'Dois', 'Tres', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+for (x of ext) {
+    let litem = x;
+
+    let li = document.createElement('li');
+    li.innerText = litem;
+    
+    ul.appendChild(li)
+}
+document.querySelector('.right-content').appendChild(ul);
