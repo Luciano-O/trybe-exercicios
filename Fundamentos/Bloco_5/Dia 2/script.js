@@ -43,3 +43,7 @@ for (let index = 1; index <= 3; index += 1) {
 }
 
 document.querySelector('h1').className = 'title';
+
+for (let index = 0; index < 3; index += 1) {
+    document.querySelectorAll('h3')[index].className = 'description';
+}
