@@ -41,3 +41,5 @@ for (let index = 1; index <= 3; index += 1) {
     let h3 = document.createElement('h3');
     document.querySelector('main').appendChild(h3)
 }
+
+document.querySelector('h1').className = 'title';
