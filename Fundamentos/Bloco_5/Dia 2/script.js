@@ -31,10 +31,13 @@ let ul = document.createElement('ul');
 let ext = ['Um', 'Dois', 'Tres', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
 for (x of ext) {
     let litem = x;
-
     let li = document.createElement('li');
     li.innerText = litem;
-    
     ul.appendChild(li)
 }
 document.querySelector('.right-content').appendChild(ul);
+
+for (let index = 1; index <= 3; index += 1) {
+    let h3 = document.createElement('h3');
+    document.querySelector('main').appendChild(h3)
+}
