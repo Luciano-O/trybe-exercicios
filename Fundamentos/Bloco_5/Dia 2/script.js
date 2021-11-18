@@ -53,3 +53,8 @@ main.removeChild(secao2)
 secao3.style.marginRight = 'auto'
 
 secao.style.backgroundColor = 'green';
+
+let li1 = document.querySelector('ul').lastChild;
+let li2 = document.querySelector('ul').lastChild.previousSibling;
+ul.removeChild(li1);
+ul.removeChild(li2)
