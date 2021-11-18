@@ -21,3 +21,8 @@ document.querySelector('main').appendChild(secao2)
 let secao3 = document.createElement('section')
 secao3.className = 'right-content';
 document.querySelector('main').appendChild(secao3)
+
+let img = document.createElement('img')
+img.src = "https://picsum.photos/200"
+img.className = 'small-image'
+document.querySelector('.left-content').appendChild(img);
