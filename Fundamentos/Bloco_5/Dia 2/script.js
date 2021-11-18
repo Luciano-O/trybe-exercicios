@@ -9,3 +9,7 @@ document.body.appendChild(main);
 let secao = document.createElement('section');
 secao.className = 'center-content';
 document.querySelector('.main-content').appendChild(secao);
+
+let p = document.createElement('p');
+p.innerText = 'Um texte aleatorio'
+document.querySelector('section').appendChild(p);
