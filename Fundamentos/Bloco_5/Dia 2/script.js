@@ -51,3 +51,5 @@ for (let index = 0; index < 3; index += 1) {
 main.removeChild(secao2)
 
 secao3.style.marginRight = 'auto'
+
+secao.style.backgroundColor = 'green';
