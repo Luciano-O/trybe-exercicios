@@ -13,3 +13,11 @@ document.querySelector('.main-content').appendChild(secao);
 let p = document.createElement('p');
 p.innerText = 'Um texte aleatorio'
 document.querySelector('section').appendChild(p);
+
+let secao2 = document.createElement('section')
+secao2.className = 'left-content';
+document.querySelector('main').appendChild(secao2)
+
+let secao3 = document.createElement('section')
+secao3.className = 'right-content';
+document.querySelector('main').appendChild(secao3)
