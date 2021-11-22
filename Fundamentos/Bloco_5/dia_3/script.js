@@ -57,3 +57,17 @@ function createDaysOfTheWeek() {
     }
   }
   btt.addEventListener('click', feriadosCor);
+
+  // Exercicio 4
+  let sex = 'Sexta-Feira'
+  function sextas(sex) {
+    let b = document.createElement('button');
+    b.type = 'button';
+    b.innerText = sex;
+    b.id = 'btn-friday'
+    let bt = document.querySelector('.buttons-container')
+    bt.appendChild(b)
+  }
+  sextas(sex);
+
+  
