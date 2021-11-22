@@ -41,3 +41,19 @@ function createDaysOfTheWeek() {
     bt.appendChild(b)
   }
   feriados(fer);
+  
+  // Exercicio 3
+  let btt = document.querySelector('#btn-holiday');
+  let fers = document.querySelectorAll('.holiday')
+  let cor = 'green';
+  let bcc = 'rgb(238,238,238)';
+  function feriadosCor () {
+    for (let x = 0; x < fer.length; x += 1) {
+      if (fers[x].style.backgroundColor === cor ) {
+        fers[x].style.backgroundColor = bcc;
+      } else {
+        fers[x].style.backgroundColor = cor;
+      }
+    }
+  }
+  btt.addEventListener('click', feriadosCor);
