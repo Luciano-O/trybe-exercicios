@@ -99,12 +99,22 @@ function createDaysOfTheWeek() {
   days.addEventListener('mouseover', mouseCima);
   days.addEventListener('mouseout', mouseFora)
 
-
+  // Exercicio 7
+  let tasks = document.querySelector('.my-tasks')
   let task = 'cozinhar';
-  function tarefa () {
+  function tarefa (task) {
     let tar = document.createElement('span')
-    let tasks = document.querySelector('.my-tasks')
     tar.innerText = task;
     tasks.appendChild(tar)
   }
-  tarefa();
+  tarefa(task);
+
+
+  let color = 'green';
+  function legenda (cor) {
+    let leg = document.createElement('div');
+    leg.className = 'task'
+    leg.style.backgroundColor = cor; 
+    tasks.appendChild(leg);
+  }
+  legenda(color);
