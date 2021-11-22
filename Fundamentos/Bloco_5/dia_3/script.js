@@ -86,7 +86,7 @@ function createDaysOfTheWeek() {
   }
   btt2.addEventListener('click', sexsText);
 
-
+  // Exercicio 6
   let days = document.querySelector('#days');
   function mouseCima (evento) {
     evento.target.style.fontSize = '30px'
@@ -98,3 +98,13 @@ function createDaysOfTheWeek() {
   }
   days.addEventListener('mouseover', mouseCima);
   days.addEventListener('mouseout', mouseFora)
+
+
+  let task = 'cozinhar';
+  function tarefa () {
+    let tar = document.createElement('span')
+    let tasks = document.querySelector('.my-tasks')
+    tar.innerText = task;
+    tasks.appendChild(tar)
+  }
+  tarefa();
