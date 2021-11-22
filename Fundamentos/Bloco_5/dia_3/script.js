@@ -133,5 +133,12 @@ function createDaysOfTheWeek() {
   }
   leg.addEventListener('click', taskSelected);
 
-
-  
+  // Exercicio 10
+  function colorDays (evento) {
+    if (evento.target.style.color === color) {
+      evento.target.style.color = 'rgb(119,119,119)'
+    } else {
+      evento.target.style.color = color
+    }
+  }
+  days.addEventListener('click', colorDays);
