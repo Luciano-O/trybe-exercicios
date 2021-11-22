@@ -142,3 +142,28 @@ function createDaysOfTheWeek() {
     }
   }
   days.addEventListener('click', colorDays);
+
+  // Exercicio Bonus
+  let meusCompromissos = document.querySelector('.task-list')
+  let addBtn = document.querySelector('#btn-add')
+  function adicionar () {
+    let texto = document.querySelector('#task-input')
+    let add = document.createElement('span')
+    let quebra = document.createElement('br')
+    if (texto.value === '') {
+      alert('ERRO, Adicione um texto')
+    } else {
+      add.innerText = texto.value;
+      meusCompromissos.appendChild(add);
+      meusCompromissos.appendChild(quebra);
+    }
+  }
+  function testEnter(evento) {
+    let tecla = evento.keyCode;
+    if (tecla === 13) {
+      adicionar();
+    }
+  }
+  addBtn.addEventListener('click', adicionar);
+  document.querySelector('body').addEventListener('keydown', testEnter)
+  
