@@ -70,4 +70,19 @@ function createDaysOfTheWeek() {
   }
   sextas(sex);
 
-  
+  // Exercicio 5
+  let btt2 = document.querySelector('#btn-friday');
+  let sexs = document.querySelectorAll('.friday')
+  let text = 'Sexta-feira';
+  let sexsArr = [4,11,18,25];
+  function sexsText () {
+    for (let x = 0; x < sexs.length; x += 1) {
+      if (sexs[x].innerHTML == text ) {
+        sexs[x].innerHTML = sexsArr[x];
+      } else {
+        sexs[x].innerHTML = text;
+      }
+    }
+  }
+  btt2.addEventListener('click', sexsText);
+
