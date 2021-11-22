@@ -86,3 +86,15 @@ function createDaysOfTheWeek() {
   }
   btt2.addEventListener('click', sexsText);
 
+
+  let days = document.querySelector('#days');
+  function mouseCima (evento) {
+    evento.target.style.fontSize = '30px'
+    evento.target.style.fontWeight = '600'
+  }
+  function mouseFora (evento) {
+    evento.target.style.fontSize = '20px'
+    evento.target.style.fontWeight = '200'
+  }
+  days.addEventListener('mouseover', mouseCima);
+  days.addEventListener('mouseout', mouseFora)
