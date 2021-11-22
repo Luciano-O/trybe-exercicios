@@ -109,7 +109,7 @@ function createDaysOfTheWeek() {
   }
   tarefa(task);
 
-
+  // Exercicio 8
   let color = 'green';
   function legenda (cor) {
     let leg = document.createElement('div');
@@ -118,3 +118,20 @@ function createDaysOfTheWeek() {
     tasks.appendChild(leg);
   }
   legenda(color);
+
+  // Exercicio 9
+  let isClicked = false;
+  let leg = document.querySelector('.task');
+  function taskSelected (){
+    if (isClicked === false) {
+      leg.classList.add('selected')
+      isClicked = true;
+    } else {
+      leg.classList.remove('selected')
+      isClicked = false;
+    }
+  }
+  leg.addEventListener('click', taskSelected);
+
+
+  
