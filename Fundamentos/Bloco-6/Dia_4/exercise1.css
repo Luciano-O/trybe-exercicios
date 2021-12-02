@@ -1,0 +1,48 @@
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 30px;
+    }
+    p {
+        font-size: large;
+    }
+    h1 {
+        font-size: x-large;
+    }
+    figure {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 950px) {
+    h1, p, h2 {
+        text-align: center;
+    }
+    #figures {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main figure {
+        margin:25px 25px ;
+    }
+    body {
+        background-color: aquamarine;
+    }
+    p {
+        font-size: x-large;
+    }
+    h1{
+        font-size: xxx-large;
+    }
+    h2 {
+        font-size: xx-large;
+    }
+}
