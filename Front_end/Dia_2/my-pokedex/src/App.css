@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.allPokes {
+  display: flex;
+  max-width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Pokemon {
+  display: flex;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info p {
+  margin: 7px;
+}
