@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+const compromissos = ['comp1', 'comp2', 'comp3', 'comp4', 'comp5', 'comp6', ]
+
+const Task = (value) => {
+  return (
+    <li>{value}</li>
+  );
+}
 
 function App() {
   return (
@@ -18,8 +25,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <ol>{compromissos.map((comp) => Task(comp))}</ol>
     </div>
-  );
+    
+  )
 }
 
 export default App;
